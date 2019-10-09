@@ -49,7 +49,67 @@
 
 
 # print(a)
-a,b,c = 1,2,3
-print(a)
-print(b)
-print(c)
+# a,b,c = 1,2,3
+# print(a)
+# print(b)
+# print(c)
+
+# AUGMENTED ASSIGNMNT OPERATOR
+# Value = 5
+# Value2 = 2 + Value
+# Value3 += 2
+
+# print(Value)
+# print(Value2)
+# print(Value3)
+
+# #STRINGS
+
+# Long_String = '''
+# this
+# is
+# a
+# long 
+# String 
+# '''
+# print(Long_String)
+# First_Name = 'James'
+# Last_Name = 'Urias'
+# Full_Name = First_Name + Last_Name
+# print(Full_Name)
+
+# #STRING CONCATENATION
+# print('Hello' + 'James')
+
+# #TYPE CONVERSION
+# print(str(100))
+# a = str(100)
+# b = int(a)
+# c = type(b)
+# print(c) 
+
+# #ESCAPE SEQUENCE
+# print('that's')
+# print('that\'s')
+# \t = Tab
+# \n = newline 
+
+
+# #FORMATTED STRINGS
+# Name = 'James'
+# Age = 23
+
+# print(f'Hi {Name}. You are {Age} years old.')
+
+# STRING INDEX  
+# Selfish = 'me me me '
+# print(Selfish[0])
+# #[start:stop:stepover]
+# Numbers = '01234567'
+# print(Numbers[0:7:2])
+# print(Numbers[1:])
+# print(Numbers[:5])
+# print(Numbers[-1]) #starts from the end
+# print(Numbers[::-1])
+
+#strings cannot be changed only reassigned 
