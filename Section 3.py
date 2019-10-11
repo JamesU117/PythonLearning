@@ -113,3 +113,31 @@
 # print(Numbers[::-1])
 
 #strings cannot be changed only reassigned 
+
+
+# BUILT IN FUNCTIONS AND METHODS 
+
+# test = '12345'
+# print(len(test))
+#methods will start with a . and only work on strings 
+
+# quote = 'to be or not to be'
+# print(quote.upper())
+
+########################################
+#SECTION 34 EXCERCISE 
+# Year = input('What year were you born? ')
+# Age = 2019 - int(Year)
+
+# print(f'You are {Age} years old')
+# number = int(input('Number'))
+# print(type(number))
+
+########################################
+#SECTION 36 EXCERCISE 
+# Username = input("What is your username? ")
+# Password = input("What is your password? ")
+# Pass_Length = len(Password)
+# Hidden_Pass = '*' * Pass_Length
+
+# print(f'Hi {Username} your password {Hidden_Pass} is {Pass_Length} characters long')
