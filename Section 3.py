@@ -141,3 +141,56 @@
 # Hidden_Pass = '*' * Pass_Length
 
 # print(f'Hi {Username} your password {Hidden_Pass} is {Pass_Length} characters long')
+
+#LISTS
+# List1 = [1,2,3,4,5]
+# List2 = ['a','b','c']
+# List3 = [1,2,'a',True]
+
+# Cart = [
+#   'book',
+#   'pen',
+#   'glasses',
+#   'pencil'
+#   ]
+
+# print(Cart[0:2])
+
+# Cart2 = Cart #this will make cart2 always match cart 
+# Cart2 = Cart[0:3] #this will make a copy 
+
+# #MATRIX
+# Matrix = [
+#   [1,2,3],
+#   [4,5,6],
+#   [7,8,9]
+# ]
+
+# List1 = [1,2,3,4,5]
+# List1.apend(6) #this will modify the list in place not copy it
+# List1.insert(5,6) #same as above but will place ist where specified 
+# List1.extend(6) #will add to the list
+# List1.pop() # will remove from the list
+#.index wil give you the index of an item, you can also look through a range within the index
+#.count will count the instances of an item
+#.sort will modify a list  
+# Alpha = ['b','c','a']
+# sorted(Alpha)
+# print(Alpha)
+
+# Alpha.sort() 
+# print(Alpha)
+# print(list(range(100)))
+# Sentence = ''
+# New_Sentence = ' '.join(['This','is','a','sentence'])
+# print(New_Sentence)
+
+#LIST UNPACKING
+
+# a,b,c,*other,d = [1,2,3,4,5,6,7]
+# print(a) 
+# print(b)
+# print(c) 
+# print(other)
+# print(d) 
+
