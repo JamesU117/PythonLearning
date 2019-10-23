@@ -194,3 +194,76 @@
 # print(other)
 # print(d) 
 
+## NONE = NULL
+
+## DICTIONARY
+
+# Dictionary = {
+#   'a': [1,2,3],
+#   'b': 'this is a string',
+#   'y':True
+# }
+# print(Dictionary['b'])
+
+# My_List = [
+# {
+#   'a': [1,2,3],
+#   'b': 'this is a string',
+#   'z': True
+# },
+# {
+#   'd': [4,5,6],
+#   'e': 'this is NOT a string',
+#   'x': True
+# }
+# ]
+
+# print(My_List[0]['a'][2])
+# Dictionary = {
+#   123:[1,2,3],
+#   True: 'Hello',
+#   [string]: True #needs to be imutable
+# }
+
+
+# user = { 
+#   'basket': [1,2,3],
+#   'greet': 'hello'
+# }
+
+# print(user.get('age',55)) #if 'age' doesnt exist use 55
+# user2 = dict(name = 'James')
+# print(user2)
+
+# print('basket' in user.keys())
+# print('hello' in user.keys())
+# print('hello' in user.values())
+
+# print(user.items())
+
+#TUPLE
+# My_Tuple = (1,2,3,4,5)
+
+#SETS 
+# My_Set = {1,2,3,4,5}
+# print(My_Set)
+#Can not have duplicates
+# List = [1,2,3,4,4,5,5,1]
+# print(set(List))
+
+# My_Set = {1,2,3,4,5}
+# Your_Set = {4,5,6,7,8,9,10}
+
+# print(My_Set.difference(Your_Set))
+# print(My_Set.discard(5))
+# print(My_Set)
+# print(My_Set.difference_update(Your_Set))
+# print(My_Set)
+# print(My_Set.intersection(Your_Set))
+# print(My_Set.isdisjoint(Your_Set)) #have nothing in common
+
+# print(My_Set.issubset(Your_Set))
+# print(My_Set.issuperset(Your_Set))
+# print(My_Set.issubset(Your_Set))
+# print(My_Set.union(Your_Set))
+# print(My_Set | Your_Set)
