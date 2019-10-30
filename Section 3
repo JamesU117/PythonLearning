@@ -1,0 +1,19 @@
+### CONDITIONAL LOGIC
+
+# Is_Old = True
+# Is_Licensed = True
+
+# if Is_Old:
+#     print('You are old enough to drive!')
+# elif Is_Licensed:
+#     print('You can drive now!')
+# else:
+#     print('You Can not drive!')
+
+# print('Check ')
+
+# #or
+# if Is_Old and Is_Licensed:
+#     print('You can drive!')
+# else:
+#     print('You can not drive!')
