@@ -105,3 +105,43 @@
 #   print(iteam)
 #   continue
 #   print('stop')
+
+
+### GUI
+#Exercise!
+#Display the image below to the right hand side where the 0 is going to be ' ', and the 1 is going to be '*'. This will reveal an image!
+# picture = [
+#   [0,0,0,1,0,0,0],
+#   [0,0,1,1,1,0,0],
+#   [0,1,1,1,1,1,0],
+#   [1,1,1,1,1,1,1],
+#   [0,0,0,1,0,0,0],
+#   [0,0,0,1,0,0,0]
+# ]
+
+
+# for value in picture:
+#   for char in value:
+#     if char == 0:
+#        print(' ', end = ' ')
+#     else:
+#       print('*', end = ' ')
+#   print()
+
+# some_lst = ['a','b','c','b','d','m','n','n']
+
+# Dupe = []
+
+#This doesnt work
+# for check in some_lst:
+#   if some_lst.count(check) > 1 and in not Dupe:
+#     Dupe.append(check)
+#     print('x')
+
+# for check in some_lst:
+#   if some_lst.count(check) >1:
+#     if check not in Dupe:
+#       Dupe.append(check)
+
+
+# print(Dupe)
