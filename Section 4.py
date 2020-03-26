@@ -145,3 +145,18 @@
 
 
 # print(Dupe)
+###Arguements vs Parameters 
+# name = input("What is your name? ")
+#Parameter
+# def Say_Hello(name='test'):
+#   print(f'Hello {name}')
+
+# #Argument
+# Say_Hello()
+# Say_Hello('James')
+
+###return
+# def sum(num1, num2):
+#   num1 + num2
+
+# sum(4,5)
